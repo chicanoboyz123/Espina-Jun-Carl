@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header id="header">
+    <div class="container">
+          <a href="#" class="Welcome"><img src="Welcome.png" width="200" height="50" ></a>
+          <nav class="main-nav">
+              <ul>
+                  <li><a href="#Biography">Biography</a></li>
+                  <li><a href="#Skills">Skills</a></li>
+                  <li><a href="#Hobbies">Hobbies</a></li>
+                  <li><a href="#Reference">Reference</a></li>
+              </ul>
+          </nav>
+    </div>
+    </header>
+    <section class="banner2-section" id="Biography">
+        <img src="banner2.jpg" width="1349" height="1000">
+        <div class="banner2-text" id="Biography">
+            
+            <p>Hi! I'm Jun Carl D. Espina,I'm currently taking a course of <b>Bachelor of  Science in Information Technology. </b> at Lyceum of Alabang
+                I am 23yrs old and I was born on September 9 , 1998. I'm the elder in our family I have only 6 sibling, 
+                and my mother's name is Annie and my father's name is Juanito. i am currently residing in T.s Cruz Subd Almanza Dos Las Piñas City. 
+            I'm also a pet lover. We have 1 dog and 1 cats ang littel kitties.</p>
+            <br>
+            <p> I used to dream that someday i will become a pilot, 
+                but unfortunately my parents can't be able to afford the expenses because taking a pilot course is very expesive here in our country, and my second choice is IT but
+            i need to work to help my perent to financial </p>
+            <br>
+            <p> I've come to feel that success is determined by two key criteria. The first is a person's drive and ambition to succeed. Are you willing to make compromises in order to reach your objective, such as working and studying simultaneously? 
+                Are you ready to bounce back after a setback and keep working toward your goal? It is practically impossible to achieve success without strong internal motivation.
+                The support of others around you is also important. To be determined to succeed does not imply that you must alienate everyone and walk on others to reach your goal. 
+                Success, on the other hand, is about recognizing your flaws and accepting advice from individuals who sincerely want to assist you. 
+                For example, if it wasn't for my parents' support of my educational aspirations, I would not be where I am now.</p>
+        </div>
+        
+    </section>
+
+    <section class="Skills-section" id="Skills">
+        <div class="container">
+            <section id="Skills">
+                <h2>Skills</h2>
+                <h3>
+                COMMUNICATION <br>
+                <img src="3star.png"> <br>
+                MATH <br>
+                <img src="4star.png"> <br>
+                JOKING <br>
+                <img src="5star.png"> <br>
+                </h3>
+            </section>
+        </div>
+
+    </section>
+
+    <section class="Hobbies-section" id="Hobbies">
+        <div class="container">
+                <h1>My Hobbies</h1>
+                <p><b>1.Walking While counting Cars </b></p> <p><b>2.Playing Online Games</b></p> <p><b>3.making a nephew  cry</b></p> <p><b>4. Fixing something Electric </b></p>
+        </div>
+
+    </section>
+
+    <section class="Reference-section" id="Reference">
+        <div class="container">
+            <div class="Reference-txt" id="Reference">
+            <section id="Reference">
+                 <h6>
+                     <img src="ninoy.jpg" >
+            <p><b>Ninoy Aquino</b>
+                <br>
+               <b>President</b>
+            <br>
+        <b>Ninoyaquino@yahoo.com</b>
+    <br>
+             <b>09692358742</b></p>
+                 </h6>
+
+                 <h7>
+                     <img src="cardo.jpg">
+                     <p><b>Cardo Dalisay</b>
+                    <br>
+                    <b>Pulis</b>
+                    <br>
+                    <b>cardodalisaya@gmail.com</b>
+                    <br>
+                    <b>09224855332</b>
+                </p>
+                 </h7>
+
+                 <h8>
+                     <img src="leni.png">
+                     <p><b>Leni Robredo</b>
+                    <br>
+                <b>Vice President</b>
+                <br>
+            <b>lenirobredo@hotmail.com</b>
+            <br>
+        <b>09221478852</b></p>
+
+                 </h8>
+                
+                </section> 
+        </div>
+        </div>
+
+    </section>
+
+   
+    </div>
+</body>
+</html>
+
+
+//Css
+
+
+body,html{
+    margin: 0;
+    font-family: arial;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+#header{
+    background: rgba(0,0,0,0.8);
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.container{
+    width: 86%;
+    margin: 0 auto;
+
+}
+#header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav{}
+.main-nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.main-nav ul li{
+    float: left;
+    margin-left: 35px;
+    font-size: 18px;
+}
+.main-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner2 img{
+    max-width: 100%;
+    vertical-align: top;
+    background: fixed;
+}
+.banner2-text{
+    position: absolute;
+    top: 0;
+    padding: 150px; 
+
+}
+
+.banner-section,
+.Skills-section,
+.Hobbies-section,
+.Reference-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.Skills-section{
+    background-color: #df7070;
+}
+.Hobbies-section{
+    background-color: #5a3d3d;
+}
+.Reference-section{}
+
+#Skills{
+    background-image: url('images/.Skills-section.png');
+    background-size: cover;
+    
+}
+
+#Skills h2{
+    font-family:sans-serif;
+    font-size: 5;
+    margin-top: 2%;
+    padding-left: 5%;
+    align-items: center;
+}
+#Skills h3{
+    color: black;
+    margin-top: 1%;
+    padding-left: 5%;
+    line-height: 2;
+    align-items: center;
+
+}
+
+#Skills img{
+    width: 10%;
+    padding-left: 2%;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    align-items: center;
+
+}
+#Reference img{
+    top: 0;
+    width: 10%;
+    padding-left: 2%;
+    margin-bottom: 2px;
+    padding-left: 10%;
+    align-items: center;
+}
+
+#Reference h6{
+    font-family:sans-serif;
+    font-size: 10;
+    margin-top: 35%;
+    padding-left: 10%;
+    
+}
+
+#Reference h7{
+    font-family:sans-serif;
+    font-size: 5;
+    margin-top: 40%;
+    padding-left: 20%;
+    
+}
+
+#Reference h8{
+    font-family:sans-serif;
+    font-size: 5;
+    margin-top: 2%;
+    padding-left: 5%;
+    
+    
+}
+
+#Reference img{
+
+    background-size: cover;
+}
